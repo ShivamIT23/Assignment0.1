@@ -1,0 +1,8 @@
+target/
+*.iml
+*.md
+*.git
+*.env
+.vscode/
+*.DS_Store
+.package

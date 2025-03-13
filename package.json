@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "maven": "^5.0.0"
+  },
+  "scripts": {
+    "build": "maven clean package",
+    "run": "maven spring-boot:run"
+  }
+}
