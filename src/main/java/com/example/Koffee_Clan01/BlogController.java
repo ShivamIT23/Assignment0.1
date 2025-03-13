@@ -44,7 +44,7 @@ public class BlogController {
     @Autowired
     private GeminiServices geminiServices;
 
-    @PostMapping("/summarize")
+    @GetMapping("/summarize")
     public ResponseEntity<String> summarizeBlog(@RequestBody String content) {
         System.out.println("Received content: " + content);
         String summary = geminiServices.generateSummary(content);
