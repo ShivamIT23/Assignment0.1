@@ -3,6 +3,14 @@
 
 It is a java based backend server created with springboot.
 
+It uses Spring Initializer With:
+
+- Spring Web
+- Spring Data JPA
+- Lombok
+- H2 / MySQL / PostgreSQL Driver
+- Spring Boot DevTools
+
 
 
 
